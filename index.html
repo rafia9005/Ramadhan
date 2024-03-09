@@ -21,9 +21,16 @@
           </p>
         </div>
         <center>
-          <video src="video.mp4" class="rounded-lg" autoplay loop width="300px"></video>
+          <video src="video.mp4" class="rounded-lg" loop width="300px"></video>
         </center>
       </div>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var video = document.querySelector('video');
+        video.play();
+      });
+    </script>
   </body>
 </html>
